@@ -1,0 +1,98 @@
+body {
+    background-color: #d6d6d6;
+    /*box-sizing: border-box;*/
+}
+
+
+tbody {
+    background-color: white;
+}
+
+th, td {
+    padding: 8px 16px;
+}
+
+th {
+    /*background: #9e9e9e;*/
+    background: #17a2b8;
+    color: white;
+    position: sticky;
+    top: -.9px;
+}
+
+p {
+    font-size: 17px;
+}
+
+th:first-child {
+    width: 23%;
+}
+
+.editable {
+    background-color: #FFF6E2 !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.table {
+    margin: 0;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.container {
+    margin-top: 165px;
+    max-width: 1070px;
+}
+
+.field {
+    border: none;
+    width: 100%;
+    background: transparent;
+    pointer-events: none;
+}
+
+.tableFixHead {
+    clear: both;
+    overflow-y: auto;
+    height: 429px;
+}
+
+.tableFixHead::-webkit-scrollbar {
+    width: 7px;
+    background-color: white;
+}
+
+.tableFixHead::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.tableFixHead::-webkit-scrollbar-thumb {
+    background: #828181;
+    border-radius: 10px;
+}
+
+.tableFixHead::-webkit-scrollbar-thumb:hover {
+    background: #656565;
+}
+
+#addBtn {
+    background-color: #2196f3;
+    margin-top: 11px;
+    margin-right: 4px;
+    float: right;
+}
+
+#cancelBtn {
+    display: none;
+}
+
+#saveBtn {
+    display: none;
+}
+
+#deleteModalBody {
+    text-align: center;
+}
